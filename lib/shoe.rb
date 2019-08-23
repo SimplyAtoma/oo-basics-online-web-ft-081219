@@ -20,5 +20,7 @@ class Shoe
   attr_reader :material
   attr_accessible :material
   
-  
+  attr_writer :condition 
+  attr_reader :material
+  attr_accessible :material
 end
