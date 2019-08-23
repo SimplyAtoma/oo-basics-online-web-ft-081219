@@ -21,6 +21,11 @@ class Shoe
   attr_accessible :material
   
   attr_writer :condition 
-  attr_reader :material
-  attr_accessible :material
+  attr_reader :condition
+  attr_accessible :condition
+  
+  def cobble
+    puts 
+    @condition = "new"
+  end
 end
