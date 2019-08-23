@@ -25,7 +25,7 @@ class Shoe
   attr_accessible :condition
   
   def cobble
-    puts 
+    puts "Your shoe is as good as new!"
     @condition = "new"
   end
 end
