@@ -17,6 +17,8 @@ class Shoe
   attr_accessible :size 
   
   attr_writer :material 
-  attr_reader :brand
-  attr_accessible :brand
+  attr_reader :material
+  attr_accessible :material
+  
+  
 end
