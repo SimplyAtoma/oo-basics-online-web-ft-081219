@@ -6,23 +6,23 @@ class Shoe
   
   attr_writer :brand 
   attr_reader :brand
-  attr_accessible :brand
+  attr_accessor :brand
   
   attr_writer :color 
   attr_reader :color
-  attr_accessible :color 
+  attr_accessor :color 
   
   attr_writer :size 
   attr_reader :size 
-  attr_accessible :size 
+  attr_accessor :size 
   
   attr_writer :material 
   attr_reader :material
-  attr_accessible :material
+  attr_accessor :material
   
   attr_writer :condition 
   attr_reader :condition
-  attr_accessible :condition
+  attr_accessor :condition
   
   def cobble
     puts "Your shoe is as good as new!"
